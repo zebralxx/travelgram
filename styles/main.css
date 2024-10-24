@@ -10,3 +10,22 @@ main img {
   height: 286px;
   object-fit: cover;
 }
+
+@media (width <= 1200px) {
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main img {
+    width: 328px;
+    height: 328px;
+    object-fit: cover;
+  }
+}
+

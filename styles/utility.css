@@ -1,0 +1,10 @@
+.desktop-only {
+  display: inline;
+}
+
+@media (width <= 1200px) {
+
+  .desktop-only {
+    display: none;
+  }
+}
